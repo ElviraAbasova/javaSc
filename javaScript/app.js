@@ -229,49 +229,49 @@
 // }
 
 //     ------7.------
-let balans;
-let duyme;
+// let balans;
+// let duyme;
 
-balans=Number(prompt("Balansinizdaki mebleğ"));
-duyme=Number(prompt("1 2 3 ve ya 4 daxil edin"));
+// balans=Number(prompt("Balansinizdaki mebleğ"));
+// duyme=Number(prompt("1 2 3 ve ya 4 daxil edin"));
 
-if( duyme == "" || balans == ""){
-    console.log("Daxil etdiklərinizin ədəd olduğundan əmin olun !!")
+// if( duyme == "" || balans == ""){
+//     console.log("Daxil etdiklərinizin ədəd olduğundan əmin olun !!")
    
    
-}
-else{
-    if(duyme*1==duyme && balans*1==balans){
-        if(duyme == 1){
-            console.log(`Balansinizdaki olan məbləğ ${balans} AZN-dır`)
+// }
+// else{
+//     if(duyme*1==duyme && balans*1==balans){
+//         if(duyme == 1){
+//             console.log(`Balansinizdaki olan məbləğ ${balans} AZN-dır`)
     
-        }
-        else if(duyme == 2){
-            let medaxil;
-            medaxil=Number(prompt("Balansiniza köçürmək istədiyiniz mebleğ"));
-            console.log(`Balansiniza pul köçürüldü məbləğ ${balans+medaxil} AZN-dır`)
-        }
-        else if(duyme == 3){
-            let cixaris;
-            cixaris=Number(prompt("Balansinizdan çıxarmaq istədiyiniz mebleğ"));
-            if(balans>=cixaris){
-                console.log(`Balansinizdan pul çıxarıldı qalan məbləğ ${balans-cixaris} AZN-dır`);
-            }
-            else{
-                alert(`Balansinizda yetəri qədər pul yoxdur`)
-            }
+//         }
+//         else if(duyme == 2){
+//             let medaxil;
+//             medaxil=Number(prompt("Balansiniza köçürmək istədiyiniz mebleğ"));
+//             console.log(`Balansiniza pul köçürüldü məbləğ ${balans+medaxil} AZN-dır`)
+//         }
+//         else if(duyme == 3){
+//             let cixaris;
+//             cixaris=Number(prompt("Balansinizdan çıxarmaq istədiyiniz mebleğ"));
+//             if(balans>=cixaris){
+//                 console.log(`Balansinizdan pul çıxarıldı qalan məbləğ ${balans-cixaris} AZN-dır`);
+//             }
+//             else{
+//                 alert(`Balansinizda yetəri qədər pul yoxdur`)
+//             }
             
-        }
-        else if(duyme == 4){
-            alert("Çıxış edildi!")
-        }
-        else{
-            alert("düyməni düzgün daxil edin")
-        }
+//         }
+//         else if(duyme == 4){
+//             alert("Çıxış edildi!")
+//         }
+//         else{
+//             alert("düyməni düzgün daxil edin")
+//         }
 
-    }
-    else{
-        console.log("Daxil etdiklərinizin ədəd olduğundan əmin olun !!")
+//     }
+//     else{
+//         console.log("Daxil etdiklərinizin ədəd olduğundan əmin olun !!")
 
-    }
-}
+//     }
+// }
