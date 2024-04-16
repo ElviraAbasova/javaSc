@@ -1,0 +1,30 @@
+.card{
+    width: 30rem;
+    margin: auto;
+
+}
+
+input{
+    width: 60%;
+    padding: 0.3rem;
+    
+}
+button{
+    background-color: rgb(64, 255, 47);
+    border: none;
+    color: white;
+    padding: 0.4rem;
+}
+
+.box{
+    margin: 1rem 0;
+    padding: 0.2rem;
+    border: 1px solid rgb(189, 189, 189);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
